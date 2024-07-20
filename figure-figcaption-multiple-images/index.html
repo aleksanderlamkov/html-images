@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      font-size: 24px;
+    }
+
+    img {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    figure {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="./styles.css">
+  <title><figure> и <figcaption>, несколько изображений</title>
+</head>
+<body>
+  <figure class="figure">
+    <div class="figure__group">
+      <img src="images/cat-1-month.jpg" alt="1 месяц кошке" />
+      <img src="images/cat-1-year.jpg" alt="1 год кошке" />
+      <img src="images/cat-5-year.jpg" alt="5 лет кошке" />
+      <img src="images/cat-9-year.jpg" alt="9 лет кошке" />
+    </div>
+    <figcaption class="figure__caption">
+      Как изменялась кошка в течение жизни
+    </figcaption>
+  </figure>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.banner {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: image-set(
+    url('images/cat.avif') type('image/avif'),
+    url('images/cat.webp') type('image/webp'),
+    url('images/cat.jpg') type('image/jpeg')
+  );
+}

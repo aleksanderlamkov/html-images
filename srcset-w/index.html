@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    body {
+      margin: 0;
+      padding: 15px;
+      font-family: 'Rubik', sans-serif;
+      font-size: 24px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <title>Атрибут srcset, дескриптор 'w'</title>
+</head>
+<body>
+  <img
+    src="images/cat_desktop.jpg"
+    srcset="
+      images/cat_mobile.jpg 360w,
+      images/cat_desktop.jpg 612w,
+    "
+    sizes="
+      (max-width: 500px) 360px,
+      612px,
+    "
+    alt="Возмущенная морда кошки"
+    width="612" height="612"
+  />
+</body>
+</html>
